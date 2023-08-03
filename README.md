@@ -2,7 +2,8 @@
 
 ## Install doom
 
-`git clone https://github.com/hlissner/doom-emacs ~/.emacs.d`
+1. `git clone https://github.com/hlissner/doom-emacs ~/.emacs.d`
+2. ~/.emacs.d/bin/doom install
 
 ## Apply config
 
