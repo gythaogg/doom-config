@@ -8,4 +8,4 @@
 
 ## Apply config
 
-`git clone git@github.com:gythaogg/doom-config.git ~/.config/doom`
+`git clone git@github.com:gythaogg/doom-config.git ~/.doom.d`
