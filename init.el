@@ -59,10 +59,10 @@
        (format +onsave)  ; automated prettiness
        ;;god               ; run Emacs commands without modifier keys
        ;;lispy             ; vim for lisp, for people who don't like vim
-       multiple-cursors  ; editing in many places at once
+       ;;multiple-cursors  ; editing in many places at once
        ;;objed             ; text object editing for the innocent
        ;;parinfer          ; turn lisp into python, sort of
-       rotate-text       ; cycle region at point between text candidates
+       ;;rotate-text       ; cycle region at point between text candidates
        snippets          ; my elves. They type so I don't have to
        ;;word-wrap         ; soft wrapping with language-aware indent
 
@@ -74,32 +74,33 @@
        vc                ; version-control and Emacs, sitting in a tree
 
        :term
-       eshell            ; the elisp shell that works everywhere
+       ;;eshell            ; the elisp shell that works everywhere
        ;;shell             ; simple shell REPL for Emacs
        ;;term              ; basic terminal emulator for Emacs
-       vterm             ; the best terminal emulation in Emacs
+       ;;vterm             ; the best terminal emulation in Emacs
 
        :checkers
        syntax              ; tasing you for every semicolon you forget
        (spell +flyspell) ; tasing you for misspelling mispelling
-       ;;grammar           ; tasing grammar mistake every you make
+       grammar           ; tasing grammar mistake every you make
 
        :tools
-       ;;ansibles
-       ;;biblio            ; Writes a PhD for you (citation needed)
-       ;;debugger          ; FIXME stepping through code, to help you add bugs
-       direnv
-       ;;docker
+       ;;ansible
+       biblio            ; Writes a PhD for you (citation needed)
+       ;;collab            ; buffers with friends
+       debugger          ; FIXME stepping through code, to help you add bugs
+       ;;direnv
+       docker
        editorconfig      ; let someone else argue about tabs vs spaces
        ;;ein               ; tame Jupyter notebooks with emacs
        (eval +overlay)     ; run code, run (also, repls)
        ;;gist              ; interacting with github gists
-       (lookup +docsets +dictionary)    ; navigate your code and its documentation
-       lsp               ; M-x vscode
+       lookup              ; navigate your code and its documentation
+       ;;lsp               ; M-x vscode
        magit             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
-       pdf               ; pdf enhancements
+       ;;pdf               ; pdf enhancements
        ;;prodigy           ; FIXME managing external services & code builders
        ;;rgb               ; creating color strings
        ;;taskrunner        ; taskrunner for all your projects
@@ -184,11 +185,11 @@
        :app
        ;;calendar
        ;;emms
-       everywhere        ; *leave* Emacs!? You must be joking
+       ;;everywhere        ; *leave* Emacs!? You must be joking
        ;;irc               ; how neckbeards socialize
-       ;; (rss +org)        ; emacs as an RSS reader
+       ;;(rss +org)        ; emacs as an RSS reader
        ;;twitter           ; twitter client https://twitter.com/vnought
 
        :config
-       ;; literate
+       ;;literate
        (default +bindings +smartparens))
